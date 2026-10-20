@@ -1,0 +1,20 @@
+# Secrets - never commit
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Django
+*.log
+db.sqlite3
+staticfiles/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

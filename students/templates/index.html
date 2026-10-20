@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student CRUD</title>
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Student Management</h1>
+
+      <form id="studentForm">
+        <input type="text" id="name" placeholder="Student Name" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="text" id="phone" placeholder="Phone" />
+        <input type="number" id="age" placeholder="Age" min="1" max="120" />
+        <input type="text" id="address" placeholder="Address" />
+        <select id="course" required>
+          <option value="">Select Course</option>
+          <option>Python</option>
+          <option>Java</option>
+          <option>Data Science</option>
+          <option>C</option>
+          <option>C++</option>
+          <option>AI/ML</option>
+        </select>
+        <button type="submit" id="saveBtn">Save Student</button>
+        <button type="button" id="clearBtn">Clear Form</button>
+      </form>
+
+      <div class="toolbar">
+        <h2>Student List</h2>
+        <input type="text" id="search" placeholder="Search Student by name" />
+      </div>
+
+      <p class="total">Total Students: <span id="totalCount">0</span></p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Course</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="studentTable"></tbody>
+      </table>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+  </body>
+</html>

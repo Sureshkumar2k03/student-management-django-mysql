@@ -1,0 +1,2 @@
+Take a screenshot of the running app, save it as screenshot.png in this docs folder,
+then delete this text file.
