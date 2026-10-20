@@ -3,9 +3,9 @@
 A full-stack CRUD web application to add, view, search, update and delete students.
 Built with **Django**, **MySQL**, and vanilla **JavaScript**, with the frontend talking to the backend through a **REST API** that exchanges **JSON**.
 
-![Screenshot](docs/Screenshot 1.png)
+![Student list and form](docs/screenshot-1.png)
 
-![Screenshot](docs/Screenshot 2.png)
+![Add and edit students](docs/screenshot-2.png)
 
 ## Features
 
@@ -18,13 +18,13 @@ Built with **Django**, **MySQL**, and vanilla **JavaScript**, with the frontend 
 
 ## Tech Stack
 
-| Layer | Technology |
-| --- | --- |
+| Layer    | Technology                        |
+| -------- | --------------------------------- |
 | Frontend | HTML, CSS, JavaScript (Fetch API) |
-| Backend | Python, Django |
-| API | REST + JSON |
-| Database | MySQL 8 |
-| Tools | VS Code, MySQL Workbench, Git |
+| Backend  | Python, Django                    |
+| API      | REST + JSON                       |
+| Database | MySQL 8                           |
+| Tools    | VS Code, MySQL Workbench, Git     |
 
 ## How It Works
 
@@ -40,11 +40,11 @@ MySQL (students_student table)
 
 ## API Endpoints
 
-| Operation | Method | URL |
-| --- | --- | --- |
-| List students | GET | `/api/students/` |
-| Create student | POST | `/api/students/` |
-| Update student | PUT | `/api/students/<id>/` |
+| Operation      | Method | URL                   |
+| -------------- | ------ | --------------------- |
+| List students  | GET    | `/api/students/`      |
+| Create student | POST   | `/api/students/`      |
+| Update student | PUT    | `/api/students/<id>/` |
 | Delete student | DELETE | `/api/students/<id>/` |
 
 Example request body (POST / PUT):
@@ -115,7 +115,6 @@ student_crud/
 **Suresh Kumar** - Python Full Stack Developer
 
 - GitHub: [Sureshkumar2k03](https://github.com/Sureshkumar2k03)
-
 
 ## License
 
