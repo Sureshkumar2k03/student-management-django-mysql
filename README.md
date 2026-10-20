@@ -3,7 +3,9 @@
 A full-stack CRUD web application to add, view, search, update and delete students.
 Built with **Django**, **MySQL**, and vanilla **JavaScript**, with the frontend talking to the backend through a **REST API** that exchanges **JSON**.
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](docs/Screenshot 1.png)
+
+![Screenshot](docs/Screenshot 2.png)
 
 ## Features
 
@@ -112,7 +114,7 @@ student_crud/
 
 **Suresh Kumar** - Python Full Stack Developer
 
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [Sureshkumar2k03](https://github.com/Sureshkumar2k03)
 - LinkedIn: add your profile link
 
 ## License
