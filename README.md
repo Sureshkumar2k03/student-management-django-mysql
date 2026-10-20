@@ -3,9 +3,9 @@
 A full-stack CRUD web application to add, view, search, update and delete students.
 Built with **Django**, **MySQL**, and vanilla **JavaScript**, with the frontend talking to the backend through a **REST API** that exchanges **JSON**.
 
-![Student list and form](docs/screenshot-1.png)
+![Student list and form](docs/Screenshot-1.png)
 
-![Add and edit students](docs/screenshot-2.png)
+![Add and edit students](docs/Screenshot-2.png)
 
 ## Features
 
