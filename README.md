@@ -115,7 +115,7 @@ student_crud/
 **Suresh Kumar** - Python Full Stack Developer
 
 - GitHub: [Sureshkumar2k03](https://github.com/Sureshkumar2k03)
-- LinkedIn: add your profile link
+
 
 ## License
 
